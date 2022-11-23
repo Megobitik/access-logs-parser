@@ -7,16 +7,13 @@ public class Main {
         System.out.println("Введите второе число");
         int numberTwo = new Scanner(System.in).nextInt();
 
-        int firstNumber = 5;
-        int secondNumber = 10;
-
-        double quotient = (double) firstNumber / secondNumber;
+        double quotient = (double) number / numberTwo;
             System.out.println("Частное чисел " +quotient);
-        int summ = (int) firstNumber + secondNumber;
+        int summ = (int) number + numberTwo;
             System.out.println("Сумма чисел " +summ);
-        int minus = (int) firstNumber - secondNumber;
+        int minus = (int) number - numberTwo;
             System.out.println("Разность чисел " +minus);
-        int multiplication = (int) firstNumber * secondNumber;
+        int multiplication = (int) number * numberTwo;
             System.out.println("Произведение чисел " + multiplication);
         }
 }
